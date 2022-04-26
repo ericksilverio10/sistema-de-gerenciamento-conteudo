@@ -1,0 +1,119 @@
+/* RESET */
+
+@import url('fonts.css');
+
+*, *::before, *::after{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTENT */
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.login__container{
+    max-width: 50rem;
+    width: 100%;
+}
+.logo{
+    text-align: center;
+}
+.logo__img{
+    display: inline-block;
+    width: 30rem;
+}
+.login__title{
+    margin-bottom: 1.5rem;
+    margin-top: .2rem;
+    color: #76008d;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.form__group{
+    margin-bottom: 2rem;
+}
+.form__input-text{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 2rem;
+    padding: 0 5.4rem;
+    font-weight: 700;
+    outline: none;
+    border-radius: 20px;
+    border: .2rem solid #ededf1;
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 6rem;
+}
+.submit{
+    text-align: center;
+}
+.form__input-submit{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: .8rem 8rem;
+    color: white;
+    background-color: #76008d;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    transition: .4s ease-in-out
+}
+.logout{
+    text-decoration: none;
+    margin-top: 1.2rem;
+    box-sizing: border-box;
+    padding: .8rem 8rem;
+    color: white;
+    background-color: #76008d;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+    transition: .4s ease-in-out all;
+}
+.form__input-text:focus{
+    transition: .2s ease-in-out;
+    border: .2rem solid #d0d0d3;
+}
+.form__input-submit:hover{
+    padding: .8rem 10rem;
+    background-color: #650079;
+}
+.logout:hover{
+    padding: .8rem 10rem;
+    background-color: #650079;
+}
+.form__input-submit:active{
+    transition: none;
+    padding: .8rem 10rem;
+    background-color: #4e005e;
+}
+
+.form__input-icon{
+    color: #535353;
+    size: 90px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    bottom:3.5rem;
+    left: 2.5rem;
+  }
